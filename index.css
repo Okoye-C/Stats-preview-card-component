@@ -1,0 +1,86 @@
+body{
+  background-color: rgb(0, 100, 350);
+  background-color: hsl(233, 47%, 7%);
+  color:  hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+.main-container{
+  border:  hsl(244, 38%, 16%) ;
+  border-width: 1;
+  border-radius: 2%;
+  margin: 15% 15%;
+  display: flex;
+  flex-direction: row;
+  background-color:   rgb(82, 19, 121)
+}
+.words{
+  background-color:  hsl(244, 38%, 16%);
+  flex: 1;
+  text-align: left;
+  border:  hsl(244, 38%, 16%) 2px ;
+  border-right: 0;
+  border-width: 1;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+.first-paragraph{
+  font-weight: 500;
+  line-height: 35px;
+  padding: 7% 15% 0 13%;
+
+}
+.second-paragraph{
+  font-size: 13px;
+  line-height: 24px;
+  padding: 0 19% 7% 13%;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.third-paragraph {
+  display: flex;
+}
+
+.third-paragraph p{
+padding: 0 0 7% 13%;
+text-transform: uppercase;
+}
+
+.little{
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.smaller{
+  font-size: 10px;
+  letter-spacing: 1px;
+  color:  hsla(0, 0%, 100%, 0.6);
+}
+
+
+.insights{
+  color:  hsl(277, 64%, 61%);
+}
+.image{
+  border: hsl(277, 64%, 61% ) ;
+  border-left: 0;
+  border-width: 1;
+  border-bottom-right-radius: 2%;
+  border-top-right-radius: 2%;
+  flex: 1;
+  background-image:  url(image-header-desktop.jpg);
+  opacity: 0.3;
+}
+
+footer{
+  font-size: 11px;
+  text-align: center;
+}
+
+.white{
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.challenge{
+  color: hsl(277, 64%, 61%);
+}
